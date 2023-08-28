@@ -1,1 +1,74 @@
 
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/i1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="India"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:gravity="left|bottom"
+        android:textStyle="bold"/>
+
+
+    <ImageView
+        android:id="@id/i1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/india"/>
+
+
+    <TextView
+        android:id="@+id/c2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="china"
+        android:textSize="33dp"
+        android:textColor="@color/black"
+        android:gravity="left|bottom"
+        android:textStyle="bold"
+        android:layout_below="@id/i1"/>
+
+
+        <ImageView
+            android:id="@id/c2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/china"
+            android:layout_below="@id/i1"/>
+
+        <TextView
+            android:id="@+id/a3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="us"
+            android:textSize="44dp"
+            android:textColor="@color/black"
+            android:gravity="left|bottom"
+            android:textStyle="bold"
+            android:layout_below="@id/c2"/>
+        <ImageView
+            android:id="@id/a3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/uk"
+            android:layout_below="@id/c2"/>
+
+
+
+    </RelativeLayout>
+</ScrollView>
