@@ -1,1 +1,10 @@
+--------------------------------------- Android R.Java File -----------------------------------
 
+
+Android R.Java Is An Auto-Generated File By Aapt (Android Asset Packaging Tool) That Contains Resource Ids For All The Resources Of Res/ Directory.
+
+If You Create Any Component In The Activity_Main.Xml File, Id For The Corresponding Component Is Automatically Created In This File. 
+This Id Can Be Used In The Activity Source File To Perform Any Action On The Component.
+
+Note: If You Delete R.Jar File, Android Creates It Automatically.
+The Android R.Java File. It Includes A Lot Of Static Nested Classes Such As Menu, Id, Layout, Attr, Drawable, String Etc.
