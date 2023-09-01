@@ -36,7 +36,7 @@ class Amul_product : AppCompatActivity(), TextToSpeech.OnInitListener {
 
         mithaimq.setOnClickListener {
 
-            var txt1 = text_mitha.toString()
+            var txt1 = text_mitha.text.tostring()
             tts.speak(txt1, QUEUE_ADD, null)
 
         }
