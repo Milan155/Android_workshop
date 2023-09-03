@@ -17,4 +17,22 @@ class MainActivity : AppCompatActivity() {
 
         },2000)
     }
+    override fun onBackPressed() {
+        //finishAffinity()
+
+        var alert = AlertDialog.Builder(this)
+        alert.setTitle("Are you sure you want to exit?")
+        alert.setPositiveButton("YES", { dialogInterface: DialogInterface, i: Int ->
+
+            finishAffinity()
+        })
+        alert.setNegativeButton("NO", { dialogInterface: DialogInterface, i: Int ->
+
+            dialogInterface.cancel()
+        })
+        alert.show()
+
+
+    }
+}
 }
