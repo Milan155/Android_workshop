@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/user1"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:src="@drawable/box"
+        android:layout_gravity="center"/>
+    <ImageView
+        android:id="@+id/user2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/man"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="125dp"/>
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/design_default_color_error"
+        android:hint="Enter Name"
+        />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="300dp"
+        android:hint="Enter Password"
+        android:textColor="@color/design_default_color_error"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="LOGIN"
+        android:layout_below="@id/edt2"
+        />
+
+
+</FrameLayout>
