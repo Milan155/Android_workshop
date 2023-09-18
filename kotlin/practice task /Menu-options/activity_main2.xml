@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+
+    <EditText
+        android:id="@+id/j1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/j2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/j1"
+        android:hint="send"/>
+
+
+    <EditText
+        android:id="@+id/j3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/j2"
+        android:hint="data"/>
+    <Button
+        android:id="@+id/j4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send"
+        android:layout_below="@id/j3"/>
+</RelativeLayout>
