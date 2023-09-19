@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">toolbaarapp</string>
+    <string-array name="month_array">
+
+        <item>january</item>
+        <item>fabruary</item>
+        <item>march</item>
+        <item>april</item>
+        <item>may</item>
+        <item>june</item>
+
+    </string-array>
+
+</resources>
