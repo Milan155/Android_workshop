@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/emoji"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/emoji1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Everything is ok"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/shape"
+                android:backgroundTint="#BCCA2F"
+                android:layout_marginTop="15dp"/>
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/sad"
+            android:layout_marginTop="20dp"
+            />
+        <Button
+            android:id="@+id/emoji2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Somthing just broke"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/shape"
+            android:backgroundTint="#BCCA2F"
+            android:layout_marginTop="15dp"/>
+
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
