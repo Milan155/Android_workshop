@@ -1,1 +1,38 @@
 
+-------------------------------------- Fragment LifeCycle --------------------------------
+
+onAttach()	
+The very first method to be called when the fragment has been associated with the activity. This method executes only once during the lifetime of a fragment.  
+When we attach fragment(child) to Main(parent) activity then it call first and then not call this method any time(like you run an app and close and reopen) simple means that this method call only one time.
+
+onCreate()	
+This method initializes the fragment by adding all the required attributes and components.
+
+onCreateView()	
+System calls this method to create the user interface of the fragment. The root of the fragment’s layout is returned as the View component by this method to draw the UI.
+You should inflate your layout in onCreateView but shouldn’t initialize other views using findViewById in onCreateView.
+
+onViewCreated()	
+It indicates that the activity has been created in which the fragment exists. View hierarchy of the fragment also instantiated before this function call. 
+
+onStart()	
+The system invokes this method to make the fragment visible on the user’s device.
+
+onResume()	
+This method is called to make the visible fragment interactive.
+
+onPause()	
+It indicates that the user is leaving the fragment. System call this method to commit the changes made to the fragment. 
+
+onStop()	
+Method to terminate the functioning and visibility of fragment from the user’s screen. 
+
+onDestroyView()	
+System calls this method to clean up all kinds of resources as well as view hierarchy associated with the fragment. It will call when you can attach new fragment and destroy existing fragment Resoruce 
+
+onDestroy()	
+It is called to perform the final clean up of fragment’s state and its lifecycle.
+
+onDetach()	
+The system executes this method to disassociate the fragment from its host activity.
+It will call when your fragment Destroy(app crash or attach new fragment with existing fragment)
