@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
+    android:id="@+id/l1"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,34 +8,30 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/e1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Milan"/>
-    <TextView
-        android:id="@+id/t1"
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_below="@id/e1"
-        />
-    <EditText
-        android:id="@+id/e2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="enter1"
-        android:layout_below="@id/t1"/>
-    <EditText
-        android:id="@+id/e3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="enter2"
-        android:layout_below="@id/e2"/>
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Click event"
-        android:layout_below="@id/e3"/>
 
-</RelativeLayout>
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rd1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="red"/>
+
+        <RadioButton
+            android:id="@+id/rd2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="color2"/>
+        <RadioButton
+            android:id="@+id/rd3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="color3"/>
+
+    </RadioGroup>
+
+
+
+</LinearLayout>
