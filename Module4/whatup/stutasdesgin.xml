@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:backgroundTint="#e6e6fa"
+    android:outlineSpotShadowColor="#800080"
+    android:layout_margin="20dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_margin="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/SProfile_Image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:civ_border_color="#075e54"
+                app:civ_border_width="1.5dp"
+                android:src="@drawable/natural1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:id="@+id/Stutasname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="#673AB7"
+                android:textStyle="bold"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/Satutasnum"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="9327100525"
+                android:textColor="@color/design_default_color_on_secondary"
+                android:textStyle="italic"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
