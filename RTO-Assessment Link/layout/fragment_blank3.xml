@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FEFEFE">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:text="@string/que3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/ansbutton3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=" Show ANS"/>
+
+    <TextView
+        android:id="@+id/ans3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:visibility="gone"
+        android:text="@string/ans3"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/nextone"
+        android:layout_width="159dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginBottom="5dp"
+        android:text="NEXT-Q"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
